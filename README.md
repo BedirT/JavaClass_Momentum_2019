@@ -15,7 +15,7 @@ This section is for students and parets to see the notes we finally have when th
 File names are in format that has the class names. So second class has the name Class2, and every material in it is covered in that class.
 
 ## Direct Links (After Class)
-|Week|Date|Topic|Raw File|Homework
-| --- | --- | --- | --- | --- |
+|Week|Date|Topic|Raw File|Homework|Answers
+| --- | --- | --- | --- | --- | --- |
 |Week 2|02/10/2019|[Link: After Class](https://github.com/BedirT/JavaClass_Momentum_2019/tree/master/AFTER%20CLASS/Class2)|[Link: Prep](https://github.com/BedirT/JavaClass_Momentum_2019/tree/master/PREP/Class2)|[Link: HomeworkDistance](https://github.com/BedirT/JavaClass_Momentum_2019/blob/master/PREP/Class2/HomeworkDistance.java)|[HW-Answer](https://github.com/BedirT/JavaClass_Momentum_2019/blob/master/AFTER%20CLASS/Class2/HomeworkDistance.java)|
 |Week 3|02/17/2019|[Link: After Class](https://github.com/BedirT/JavaClass_Momentum_2019/tree/master/AFTER%20CLASS/Class3)|[Link: Prep](https://github.com/BedirT/JavaClass_Momentum_2019/tree/master/PREP/Class3)|[Link: HomeworkForLoop](https://github.com/BedirT/JavaClass_Momentum_2019/tree/master/PREP/Class3/HomeworkForLoop.java)|HW-Answer|
