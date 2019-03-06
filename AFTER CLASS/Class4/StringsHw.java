@@ -1,25 +1,56 @@
+import java.util.Scanner;
 
-public class StringsHw {
+public class zzhw4solution {
 
 	public static void main(String[] args) {
-		
 		// Read a string from keyboard and perform the translation (encryption)
-		// then print the new string - use switch statements
+		// then print the new string
 		
-		//   a - e 
-		//	 e - i 
-		//	 i - o 
-		//	 o - u 
-		//	 u - a 
-		//	 A - E 
-		//	 E - I 
-		//	 I - O 
-		//	 O - U 
-		//	 U - A
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Type your message to encrypt:");
+		String str = scan.nextLine();
+		scan.close();
 		
-		// After finishing the first method, create the second one
-		// which decrypts the encrypted message
-	
+		String encrypted = "";
+		for(int i = 0; i < str.length(); i++){
+			switch(str.charAt(i)){
+				case 'a':
+					encrypted += "e";
+					break;
+				case 'e':
+					encrypted += "i";
+					break;
+				case 'i':
+					encrypted += "o";
+					break;
+				case 'o':
+					encrypted += "u";
+					break;
+				case 'u':
+					encrypted += "a";
+					break;
+				case 'A':
+					encrypted += "E";
+					break;
+				case 'E':
+					encrypted += "I";
+					break;
+				case 'I':
+					encrypted += "O";
+					break;
+				case 'O':
+					encrypted += "U";
+					break;
+				case 'U':
+					encrypted += "A";
+					break;
+				default:
+					encrypted += str.charAt(i);
+			}
+		}
+		System.out.println(encrypted);
+		
+
 	}
 
 }
